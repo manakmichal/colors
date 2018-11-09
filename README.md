@@ -3,6 +3,7 @@ Simple functions for playing and dealing with colors.
 
 Currently, it's about:
 - Converting HEX & HSL to RGB
+- Comparing two colors to get a contrast ratio
 - Contrast validation using WCAG 2.0 guidelines
 
 ## Contrast check
