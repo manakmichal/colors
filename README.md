@@ -39,7 +39,7 @@ var fgRGB = colors.convert.hexToRgb(foreground),
 var ratio = colors.fn.contrastValidation(foreground, background);
 ```
 
-For this example, the returned value stored in ratio is on object:
+For this example, the returned value stored in the ratio variable is an object:
 ```javascript
 {
   aaRatio: {
