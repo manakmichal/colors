@@ -60,7 +60,7 @@ var colors = {
     getContrastRatio: function(rgb1, rgb2){
       var ratio = (this.luminanace(rgb1.r, rgb1.g, rgb1.b) + 0.05) / (this.luminanace(rgb2.r, rgb2.g, rgb2.b) + 0.05);
 
-      return ratio;
+      return ratio < 1 ? 1/ratio : ratio;
     },
     contrastValidation: function(rgb1, rgb2){
       var ratio = colors.fn.getContrastRatio(rgb1, rgb2);
